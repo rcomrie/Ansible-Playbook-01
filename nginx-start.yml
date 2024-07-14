@@ -1,0 +1,10 @@
+---
+- name: Start Nginx Service
+  hosts: servers_group1
+  become: true
+  tasks:
+    - name: Ensure Nginx is started
+      systemd:
+        name: nginx
+        state: started
+

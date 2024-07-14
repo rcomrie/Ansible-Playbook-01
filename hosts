@@ -1,0 +1,20 @@
+[servers_group1] 
+server1 ansible_host=52.87.191.228
+server2 ansible_host=54.210.136.185
+server3 ansible_host=52.91.248.183
+
+
+[servers_group2]
+server4 ansible_host=44.203.111.92
+server5 ansible_host=3.86.212.78
+server6 ansible_host=18.207.211.160
+
+
+[servers_group3]
+server7 ansible_host=34.239.128.79
+server8 ansible_host=3.82.190.152
+server9 ansible_host=3.86.229.160
+
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
